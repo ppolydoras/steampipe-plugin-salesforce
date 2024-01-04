@@ -26,7 +26,6 @@ func SalesforceContact(ctx context.Context, dm dynamicMap, config salesforceConf
 			{Name: "name", Type: proto.ColumnType_STRING, Description: "The full name of the contact."},
 			{Name: "account_id", Type: proto.ColumnType_STRING, Description: "ID of the account that's the parent of this contact."},
 			{Name: "email", Type: proto.ColumnType_STRING, Description: "The contact's email address."},
-			{Name: "lead_source", Type: proto.ColumnType_STRING, Description: "The lead's source."},
 			{Name: "owner_id", Type: proto.ColumnType_STRING, Description: "The ID of the owner of the account associated with this contact."},
 			{Name: "title", Type: proto.ColumnType_STRING, Description: "Title of the contact, such as CEO or Vice President."},
 
