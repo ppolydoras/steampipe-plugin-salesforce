@@ -34,7 +34,6 @@ func SalesforceContact(ctx context.Context, dm dynamicMap, config salesforceConf
 			{Name: "created_date", Type: proto.ColumnType_TIMESTAMP, Description: "The Created Date."},
 			{Name: "department", Type: proto.ColumnType_STRING, Description: "The contact's department."},
 			{Name: "fax", Type: proto.ColumnType_STRING, Description: "The contact's fax number."},
-			{Name: "home_phone", Type: proto.ColumnType_STRING, Description: "The contact's home telephone number."},
 			{Name: "individual_id", Type: proto.ColumnType_STRING, Description: "ID of the data privacy record associated with this contact. This field is available if Data Protection and Privacy is enabled."},
 			{Name: "is_deleted", Type: proto.ColumnType_BOOL, Description: "Indicates whether the object has been moved to the Recycle Bin (true) or not (false)."},
 			{Name: "is_email_bounced", Type: proto.ColumnType_BOOL, Description: "If bounce management is activated and an email is sent to a contact, indicates whether the email bounced (true) or not (false)."},
