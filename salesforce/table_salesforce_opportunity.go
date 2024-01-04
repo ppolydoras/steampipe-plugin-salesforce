@@ -43,7 +43,6 @@ func SalesforceOpportunity(ctx context.Context, dm dynamicMap, config salesforce
 			{Name: "has_overdue_task", Type: proto.ColumnType_BOOL, Description: "Indicates whether an opportunity has an overdue task (true) or not (false)."},
 			{Name: "is_closed", Type: proto.ColumnType_BOOL, Description: "Indicates that the opportunity is closed."},
 			{Name: "is_deleted", Type: proto.ColumnType_BOOL, Description: "Indicates that the opportunity is deleted."},
-			{Name: "is_private", Type: proto.ColumnType_BOOL, Description: "Indicates that the opportunity is private."},
 			{Name: "is_won", Type: proto.ColumnType_BOOL, Description: "Indicates that the quote or proposal has been signed or electronically accepted."},
 			{Name: "last_activity_date", Type: proto.ColumnType_TIMESTAMP, Description: "Value is one of the following, whichever is the most recent of a) Due date of the most recent event logged against the record or b) Due date of the most recently closed task associated with the record."},
 			{Name: "last_modified_by_id", Type: proto.ColumnType_STRING, Description: "The id of the user who last modified the oppurtinity record."},
