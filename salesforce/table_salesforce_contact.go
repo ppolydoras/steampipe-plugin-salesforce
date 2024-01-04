@@ -30,8 +30,6 @@ func SalesforceContact(ctx context.Context, dm dynamicMap, config salesforceConf
 			{Name: "title", Type: proto.ColumnType_STRING, Description: "Title of the contact, such as CEO or Vice President."},
 
 			// Other columns
-			{Name: "birthdate", Type: proto.ColumnType_TIMESTAMP, Description: "The contact's birthdate."},
-			{Name: "clean_status", Type: proto.ColumnType_STRING, Description: "Indicates the record's clean status."},
 			{Name: "created_by_id", Type: proto.ColumnType_STRING, Description: "The Created By ID."},
 			{Name: "created_date", Type: proto.ColumnType_TIMESTAMP, Description: "The Created Date."},
 			{Name: "department", Type: proto.ColumnType_STRING, Description: "The contact's department."},
