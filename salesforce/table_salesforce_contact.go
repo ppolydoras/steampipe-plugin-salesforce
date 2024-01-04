@@ -53,7 +53,6 @@ func SalesforceContact(ctx context.Context, dm dynamicMap, config salesforceConf
 			{Name: "system_modstamp", Type: proto.ColumnType_TIMESTAMP, Description: "The System Modstamp."},
 
 			// JSON columns
-			{Name: "other_address", Type: proto.ColumnType_JSON, Description: "The Other Address."},
 			{Name: "mailing_address", Type: proto.ColumnType_JSON, Description: "The Mailing Address."},
 		}),
 	}
