@@ -33,7 +33,6 @@ func SalesforceOrder(ctx context.Context, dm dynamicMap, config salesforceConfig
 			// Other columns
 			{Name: "activated_by_id", Type: proto.ColumnType_STRING, Description: "ID of the User who activated this order."},
 			{Name: "activated_date", Type: proto.ColumnType_TIMESTAMP, Description: "Date and time when the order was activated."},
-			{Name: "bill_to_contact_id", Type: proto.ColumnType_STRING, Description: "ID of the contact that the order is billed to."},
 			{Name: "billing_address", Type: proto.ColumnType_JSON, Description: "The billing adress for the order."},
 			{Name: "company_authorized_by_id", Type: proto.ColumnType_STRING, Description: "ID of the user who authorized the account associated with the order."},
 			{Name: "company_authorized_date", Type: proto.ColumnType_TIMESTAMP, Description: "The date on which your organization authorized the order."},
