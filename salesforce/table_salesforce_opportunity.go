@@ -34,7 +34,6 @@ func SalesforceOpportunity(ctx context.Context, dm dynamicMap, config salesforce
 			{Name: "created_by_id", Type: proto.ColumnType_STRING, Description: "Id of the user who created the opportunity."},
 			{Name: "created_date", Type: proto.ColumnType_TIMESTAMP, Description: "The creation date and time of the opportunity."},
 			{Name: "description", Type: proto.ColumnType_STRING, Description: "Description of the opportunity."},
-			{Name: "expected_revenue", Type: proto.ColumnType_DOUBLE, Description: "Calculated revenue based on the Amount and Probability fields."},
 			{Name: "fiscal_quarter", Type: proto.ColumnType_INT, Description: "Represents the fiscal quarter. Valid values are 1, 2, 3, or 4."},
 			{Name: "fiscal_year", Type: proto.ColumnType_INT, Description: "Represents the fiscal year, for example, 2006."},
 			{Name: "forecast_category", Type: proto.ColumnType_STRING, Description: "Forecast category name displayed in reports, opportunity detail and edit pages, opportunity searches, and opportunity list views."},
