@@ -1,4 +1,4 @@
-module github.com/ppolydoras/steampipe-plugin-salesforce
+module github.com/turbot/steampipe-plugin-salesforce
 
 go 1.21
 
