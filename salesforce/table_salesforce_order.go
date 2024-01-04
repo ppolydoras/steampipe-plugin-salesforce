@@ -35,7 +35,6 @@ func SalesforceOrder(ctx context.Context, dm dynamicMap, config salesforceConfig
 			{Name: "activated_date", Type: proto.ColumnType_TIMESTAMP, Description: "Date and time when the order was activated."},
 			{Name: "billing_address", Type: proto.ColumnType_JSON, Description: "The billing adress for the order."},
 			{Name: "company_authorized_by_id", Type: proto.ColumnType_STRING, Description: "ID of the user who authorized the account associated with the order."},
-			{Name: "company_authorized_date", Type: proto.ColumnType_TIMESTAMP, Description: "The date on which your organization authorized the order."},
 			{Name: "contract_id", Type: proto.ColumnType_STRING, Description: "ID of the contract associated with this order. Can only be updated when the order's StatusCode value is Draft."},
 			{Name: "created_by_id", Type: proto.ColumnType_STRING, Description: "Id of the user who created the order record."},
 			{Name: "created_date", Type: proto.ColumnType_TIMESTAMP, Description: "Creation date and time of the order record."},
