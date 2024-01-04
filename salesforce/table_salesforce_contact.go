@@ -47,7 +47,6 @@ func SalesforceContact(ctx context.Context, dm dynamicMap, config salesforceConf
 			{Name: "last_viewed_date", Type: proto.ColumnType_TIMESTAMP, Description: "The timestamp when the current user last viewed this record or list view. If this value is null, the user might have only accessed this record or list view (LastReferencedDate) but not viewed it."},
 			{Name: "master_record_id", Type: proto.ColumnType_STRING, Description: "If this record was deleted as the result of a merge, this field contains the ID of the record that remains."},
 			{Name: "mobile_phone", Type: proto.ColumnType_STRING, Description: "Contact's mobile phone number."},
-			{Name: "other_phone", Type: proto.ColumnType_STRING, Description: "The other phone of the contact."},
 			{Name: "phone", Type: proto.ColumnType_STRING, Description: "Buisness telephone number for the contact."},
 			{Name: "photo_url", Type: proto.ColumnType_STRING, Description: "The Photo URL."},
 			{Name: "reports_to_id", Type: proto.ColumnType_STRING, Description: "The Reports To ID."},
