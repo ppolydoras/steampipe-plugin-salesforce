@@ -23,7 +23,6 @@ func SalesforceOrder(ctx context.Context, dm dynamicMap, config salesforceConfig
 		Columns: mergeTableColumns(ctx, config, dm.cols, []*plugin.Column{
 			// Top columns
 			{Name: "id", Type: proto.ColumnType_STRING, Description: "Unique identifier of the order in Salesforce."},
-			{Name: "name", Type: proto.ColumnType_STRING, Description: "Title for the order that distinguishes it from other orders."},
 			{Name: "account_id", Type: proto.ColumnType_STRING, Description: "ID of the Account associated with this order."},
 			{Name: "order_number", Type: proto.ColumnType_STRING, Description: "Order number assigned to this order."},
 			{Name: "owner_id", Type: proto.ColumnType_STRING, Description: " ID of the User or queue that owns this order."},
