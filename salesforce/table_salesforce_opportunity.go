@@ -53,7 +53,6 @@ func SalesforceOpportunity(ctx context.Context, dm dynamicMap, config salesforce
 			{Name: "probability", Type: proto.ColumnType_DOUBLE, Description: "Percentage of estimated confidence in closing the opportunity."},
 			{Name: "stage_name", Type: proto.ColumnType_STRING, Description: "Current stage of opportunity."},
 			{Name: "system_modstamp", Type: proto.ColumnType_STRING, Description: "The date and time when opportunity was last modified by a user or by an automated process."},
-			{Name: "total_opportunity_quantity", Type: proto.ColumnType_STRING, Description: "Number of items included in this opportunity. Used in quantity-based forecasting."},
 			{Name: "type", Type: proto.ColumnType_STRING, Description: "Type of opportunity, such as Existing Business or New Business."},
 		}),
 	}
