@@ -39,7 +39,6 @@ func SalesforceOrder(ctx context.Context, dm dynamicMap, config salesforceConfig
 			{Name: "created_by_id", Type: proto.ColumnType_STRING, Description: "Id of the user who created the order record."},
 			{Name: "created_date", Type: proto.ColumnType_TIMESTAMP, Description: "Creation date and time of the order record."},
 			{Name: "customer_authorized_by_id", Type: proto.ColumnType_STRING, Description: "ID of the contact who authorized the order."},
-			{Name: "customer_authorized_date", Type: proto.ColumnType_TIMESTAMP, Description: "Date on which the contact authorized the order."},
 			{Name: "description", Type: proto.ColumnType_STRING, Description: "Description of the order."},
 			{Name: "effective_date", Type: proto.ColumnType_TIMESTAMP, Description: "Date at which the order becomes effective."},
 			{Name: "end_date", Type: proto.ColumnType_TIMESTAMP, Description: "Date at which the order ends."},
