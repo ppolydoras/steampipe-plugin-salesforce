@@ -50,7 +50,6 @@ func SalesforceOrder(ctx context.Context, dm dynamicMap, config salesforceConfig
 			{Name: "last_viewed_date", Type: proto.ColumnType_TIMESTAMP, Description: "The timestamp when the current user last viewed this record or list view. If this value is null, the user might have only accessed this record or list view (LastReferencedDate) but not viewed it."},
 			{Name: "original_order_id", Type: proto.ColumnType_STRING, Description: "Optional. ID of the original order that a reduction order is reducing, if the reduction order is reducing a single order."},
 			{Name: "pricebook_2_id", Type: proto.ColumnType_STRING, Description: "ID of the price book associated with this order."},
-			{Name: "ship_to_contact_id", Type: proto.ColumnType_STRING, Description: "ID of the contact that the order is shipped to."},
 			{Name: "status_code", Type: proto.ColumnType_STRING, Description: "Status code of the stage that the order has reached in the order business process."},
 			{Name: "system_modstamp", Type: proto.ColumnType_TIMESTAMP, Description: "The date and time when order record was last modified by a user or by an automated process."},
 			{Name: "shipping_address", Type: proto.ColumnType_JSON, Description: "The shipping adress for the order."},
