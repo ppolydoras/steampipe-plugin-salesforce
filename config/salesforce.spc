@@ -1,6 +1,8 @@
 connection "salesforce" {
   plugin = "salesforce"
 
+  cache = "false"
+
   # Salesforce instance URL, e.g., "https://na01.salesforce.com/"
   # url = "https://na01.salesforce.com/"
 
